@@ -8,3 +8,9 @@ b=300
 
 print(x+y-z)
 print(a*b)
+
+#variable overview
+age =90
+
+print(age)
+print(type(age))
