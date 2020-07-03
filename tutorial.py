@@ -11,6 +11,10 @@ print(a*b)
 
 #variable overview
 age =90
+name= 'John'
 
 print(age)
+print('My name is', name, 'and my age is', age) #comma notation
+
+#type of variable using reserve keyword: type
 print(type(age))
