@@ -41,3 +41,14 @@ print(people)
 
 people.remove('George')
 print(people)
+
+newPeople =('John', 'Jacob')
+
+##conditional statements##
+age= 25
+if age <19:
+    print('This person is a child')
+elif age < 70:
+    print('This person is an adult')
+else:
+    print('This person is a senior citizen')
