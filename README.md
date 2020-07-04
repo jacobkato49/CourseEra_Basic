@@ -1,4 +1,4 @@
-# CourseEra_Basic
+# Courseera Basic Python Tutorial
 Courseera basic python tutorial.  Fundamentals of python and creation of rudimentary to-do list at course conclusion.
 
 ## Getting Started
