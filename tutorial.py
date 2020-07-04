@@ -34,21 +34,24 @@ print(output)
 ##lists##
 people = ['George', 'Megan', 'Allison']
 
-people.append('Watson')
-name = people.pop()
-print(name)
-print(people)
+for name in people:
+    print(name)
 
-people.remove('George')
-print(people)
+def print_sq_values(numbers):
+    for n in numbers:
+        sq = n*n
+        print('Square of', n, 'is', sq)
 
-newPeople =('John', 'Jacob')
+numbers=[5,4,6,7,8]
+print_sq_values(numbers)
 
-##conditional statements##
-age= 25
-if age <19:
-    print('This person is a child')
-elif age < 70:
-    print('This person is an adult')
-else:
-    print('This person is a senior citizen')
+
+# ##conditional statements##
+# age= 25
+# if age <19:
+#     print('This person is a child')
+# elif age < 70:
+#     print('This person is an adult')
+# else:
+#     print('This person is a senior citizen')
+# #########
