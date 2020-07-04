@@ -46,7 +46,15 @@ numbers=[5,4,6,7,8]
 print_sq_values(numbers)
 
 
-# ##conditional statements##
+user_input= 'random'
+
+while user_input != 'exit':
+    user_input = input('>>> ')
+    print('You entered:', user_input)
+
+print('Goodbye!')
+
+##conditional statements##
 # age= 25
 # if age <19:
 #     print('This person is a child')
